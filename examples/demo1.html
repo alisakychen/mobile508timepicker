@@ -1,0 +1,38 @@
+
+<!doctype html>
+<html>
+<head>
+	<title>Range Menu [Work in progress</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content=""/>
+	<meta name="HandheldFriendly" content="True"/>
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
+	<meta http-equiv="cleartype" content="on"/>
+
+	<link rel="stylesheet" href="../css/jquery.mobile-1.3.2.min.css"/>
+	<link rel="stylesheet" href="../css/jquery.mobile508datepicker.css"/>
+	<style type="text/css">body {text-align: center; } form {display: inline-block; margin: 0 auto;}</style>
+</head>
+<body>
+	<p>Example of a having multiple time pickers on a form.</p>
+	<p>Works with older versions of jquery as well...</p>
+	<form>
+		<label for="drop-off"  class="ui-input-text">Drop Off Time:</label>
+		<input type="text" data-theme="b" id="drop-off" value="08:00" readonly="" class="time-picker ui-input-text ui-body-b">
+
+		<label for="pick-up" class="ui-input-text">Pick Up Time:</label>
+		<input type="text"  data-theme="b" id="pick-up" value="16:30" readonly="" class="time-picker ui-input-text ui-body-b">
+
+	</form>
+	<script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+	<script src="../js/jquery.scroll.start.stop.js"></script>
+	<script src="../js/jquery.mobile508timepicker.js"></script>
+	<script src="../js/demo1.js"></script>
+
+</body>
+</html>
